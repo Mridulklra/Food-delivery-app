@@ -1,11 +1,15 @@
 import React from 'react'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
-export default function home() {
+import Card from '../components/card'
+import Carousal from '../components/carousal'
+export default function Home() {
   return (
     <div>
-      <Navbar/>
-      <Footer/>
+     <div><Navbar/></div>
+     <div><Carousal/></div>
+     <div><Card/></div>
+      <div><Footer/></div>
     </div>
   )
 }
