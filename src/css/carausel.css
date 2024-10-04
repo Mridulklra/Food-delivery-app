@@ -1,0 +1,29 @@
+.search-input {
+    background-color: transparent;
+    border: 2px solid #198754; /* Green outline like the button */
+    border-radius: 50px; /* Makes the input round like a circle */
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+  
+  .search-input::placeholder {
+    color: transparent;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .search-input:hover {
+    border-color: #157347; 
+  }
+  .carousel-item img {
+    max-height: 500px; 
+    object-fit: cover; 
+  }
+  
+  .carousel-inner {
+    height: 500px;
+  }
+  
